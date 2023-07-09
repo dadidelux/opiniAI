@@ -10,8 +10,8 @@ def configure():
 # Function to communicate with ChatGPT
 def chat_with_gpt(prompt):
     configure()
-    #openai.api_key = st.secrets["api_key"]
-    openai.api_key = os.getenv("api_key")
+    openai.api_key = st.secrets["api_key"]
+    #openai.api_key = os.getenv("api_key")
     response = openai.Completion.create(
         engine="text-babbage-001",
         prompt=prompt,
