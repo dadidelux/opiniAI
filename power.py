@@ -27,6 +27,7 @@ def chat_with_gpt(prompt):
 st.markdown(
     """
     <style>
+    
     body {
         background-color: #e6e6fa;
         color: #000000; /* Updated font color to black */
@@ -88,6 +89,11 @@ st.markdown(
 
     .block-container {
         background: #fff8e1;
+    }
+    .css-1jc7ptx, .e1ewe7hr3, .viewerBadge_container__1QSob,
+    .styles_viewerBadge__1yB5_, .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDK {
+        display: none;
     }
     </style>
 
